@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock, Paper, Lesbians!</title>
+  </head>
+  <body>
+    <h1>Rock, Paper, Lesbians!</h1>
+    <div class="game-box">
+      <button id="theme-button">
+        <span> &#x1F308; </span>
+      </button>
+      <h1>Pick your move.</h1>
+      <div class="move-buttons">
+        <div class="card" id="rock-button">
+          <div class="border">
+            <img src="" alt="Rock" />
+          </div>
+        </div>
+        <div class="card" id="paper-button">
+          <div class="border">
+            <img src="" alt="Paper" />
+          </div>
+        </div>
+        <div class="card" id="lesbians-button">
+          <div class="border">
+            <img src="" alt="Lesbians" />
+          </div>
+        </div>
+      </div>
+      <div id="moves">
+        <div>
+          <p>You picked:</p>
+          <img src="" alt="" />
+        </div>
+        <div>
+          <p>The computer picked:</p>
+          <img src="" alt="" />
+        </div>
+      </div>
+      <div id="result">
+        <h3>The results:</h3>
+        <p></p>
+      </div>
+      <div id="scores">
+        <h3>The scores</h3>
+        <div>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+      <button id="reset-button">Reset Game</button>
+    </div>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="theme.js"></script>
+  </body>
+</html>
